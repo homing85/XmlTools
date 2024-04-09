@@ -2,4 +2,4 @@ xsd.exe xlink-profile.xsd gml-profile.xsd brocommon.xsd bhrgtcommon.xsd dsbhr-gt
 
 xsd.exe IMSpoor-1.2.3-gml.xsd IMSpoor-1.2.3-Communication.xsd /c
 
-xsd.exe IMSpoor-1.2.2-gml.xsd IMSpoor-1.2.2-Communication.xsd /c
+xsd.exe xlink.xsd smil20.xsd smil20-language.xsd gmlBase.xsd imgeo-pgt-local.xsd /c
