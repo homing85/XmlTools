@@ -1,5 +1,12 @@
 xsd.exe xlink-profile.xsd gml-profile.xsd brocommon.xsd bhrgtcommon.xsd dsbhr-gt-messages.xsd isbhr-gt-messages.xsd /c
 
+succes:
 xsd.exe IMSpoor-1.2.3-gml.xsd IMSpoor-1.2.3-Communication.xsd /c
 
-xsd.exe xlink.xsd smil20.xsd smil20-language.xsd gmlBase.xsd imgeo-pgt-local.xsd /c
+xsd.exe xlink.xsd smil20.xsd smil20-language.xsd gmlBase.xsd gml.xsd imgeo-pgt-local.xsd /c
+
+succes:
+xsd.exe xlink.xsd smil20.xsd smil20-language.xsd basicTypes.xsd gml.xsd imgeo-pgt-local.xsd /c
+
+in created classes of xsd:
+1. change public double[] Text to public string[] Text

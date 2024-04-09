@@ -1,12 +1,17 @@
-﻿
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Xml.Serialization;
 using System.Xml;
 using imx122;
 using pgt;
 
-namespace XmlConsoleApp
+
+namespace XmlConsoleAppDotNetFramework
 {
-    class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
@@ -34,6 +39,10 @@ namespace XmlConsoleApp
             // Test creation imx122
             string exampleXmlPath2 = @"C:\Repository\XmlTools\Voorbeelden\IMGeo_Naiade_Export_17_08_2022T12_42_33.xml";
             // .
+
+            XmlSerializer serializer2 = new XmlSerializer(typeof(pgt.FeatureCollectionType));
+            pgt.FeatureCollectionType deserializeRequest2 = (pgt.FeatureCollectionType)serializer2.Deserialize(new XmlTextReader(exampleXmlPath2));
+
             pgt.FeatureCollectionType pgt = null;
             try
             {
@@ -51,6 +60,6 @@ namespace XmlConsoleApp
 
             Console.WriteLine("lets create some classes from xsd first");
 
-        } 
-    } 
+        }
+    }
 }
