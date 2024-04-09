@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IMSpoor xmlns="http://www.prorail.nl/IMSpoor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xsi:schemaLocation="http://www.prorail.nl/IMSpoor IMSpoor-1.2.2-Communication.xsd" imxVersion="1.2.2">
+	<Situation referenceDate="2015-10-12T00:00:00+02:00">
+		<Groupings>
+			<Areas>
+				<GeoSubcodeAreas>
+					<GeoSubcodeArea puic="0b1f0a94-09eb-4c7d-85bd-e7fe626f1b99" name="155_c">
+						<Location>
+							<GeographicLocation dataAcquisitionMethod="Sketch">
+								<gml:MultiPolygon srsName="EPSG:28992">
+									<gml:polygonMember>
+										<gml:Polygon>
+											<gml:outerBoundaryIs>
+												<gml:LinearRing>
+													<gml:coordinates>166969.1 437216 166981.8 436847.7 166984.4 436768.9 166995.5 436450.1 167095.4 436453.4 167068.5 437232.9 166969.1 437216</gml:coordinates>
+												</gml:LinearRing>
+											</gml:outerBoundaryIs>
+										</gml:Polygon>
+									</gml:polygonMember>
+								</gml:MultiPolygon>
+							</GeographicLocation>
+						</Location>
+					</GeoSubcodeArea>
+					<GeoSubcodeArea puic="6a651c0e-5437-40d2-b58a-2f77f10bb54f" name="938">
+						<Location>
+							<GeographicLocation dataAcquisitionMethod="RTK">
+								<gml:MultiPolygon srsName="EPSG:28992">
+									<gml:polygonMember>
+										<gml:Polygon>
+											<gml:outerBoundaryIs>
+												<gml:LinearRing>
+													<gml:coordinates>181777.46 435412.09 181779.4 435403.4 181812.9 435373.1 181842.8 435348.09 181856.9 435336.3 181880.42 435315.23 181892.4 435304.5 181954.94 435250.34 181999.79 435212.68 182057.06 435169.7 182070.86 435159.7 182137.19 435115.65 182233.36 435058.79 182293.97 435026.95 182394.34 434980.8 182587.94 434900.02 182673.52 434861.15 182768.4 434814.6 183261.68 434553.41 183574.96 434393.59 183706.17 434324.38 183838.08 434260.62 183964.1 434210.4 184106.3 434165.65 184236.52 434134.64 184238.59 434134.2 184384.97 434110.3 184560.04 434096.43 184706.24 434096.1 184896.65 434112.44 185093.3 434139.3 185121.5 434139.2 185161.7 434144.6 185161.3 434147.7 185222.5 434156.1 185222.27 434158.11 185211.86 434257.56 184479.03 434330.73 183904.95 434543.11 181864.34 435504.04 181842.72 435487.85 181777.46 435412.09</gml:coordinates>
+												</gml:LinearRing>
+											</gml:outerBoundaryIs>
+										</gml:Polygon>
+									</gml:polygonMember>
+								</gml:MultiPolygon>
+							</GeographicLocation>
+						</Location>
+					</GeoSubcodeArea>
+				</GeoSubcodeAreas>
+			</Areas>
+			<Demarcations>
+				<OperationalPoints>
+					<OperationalPoint operationalPointType="MaintenancePoint" isControlled="True" countryCode="NL" uicCode="99956" puic="a0311c0f-8220-4d65-9bd9-a1aa49ca31f3" name="Brdvno" description="Betuweroute Duiven overloop" serviceCode="FreightYard" isBlockPoint="False" passThroughMandatory="True" stationSize="DoesNotApply" hasWorkshop="True" hasGasStation="True">
+						
+						<TrackFragments>
+							<TrackFragment railConnectionRef="455adaed-4d2a-45c2-8a7e-796d54d23b6d" fromMeasure="3305.463" toMeasure="12212.366"/>
+							<TrackFragment railConnectionRef="234ba7b0-583c-4ee6-8c1c-ebe45ba5e5cc" fromMeasure="3603.084" toMeasure="12387.193"/>
+						</TrackFragments>
+						<DemarcationMarkers>
+							<DemarcationMarker railConnectionRef="455adaed-4d2a-45c2-8a7e-796d54d23b6d" direction="Downstream" atMeasure="3305.463"/>
+							<DemarcationMarker railConnectionRef="455adaed-4d2a-45c2-8a7e-796d54d23b6d" direction="Upstream" atMeasure="12212.366"/>
+							<DemarcationMarker railConnectionRef="234ba7b0-583c-4ee6-8c1c-ebe45ba5e5cc" direction="Downstream" atMeasure="3603.084"/>
+							<DemarcationMarker railConnectionRef="234ba7b0-583c-4ee6-8c1c-ebe45ba5e5cc" direction="Upstream" atMeasure="12387.193"/>
+						</DemarcationMarkers>
+						<HeartPoint>
+							<GeographicLocation dataAcquisitionMethod="ManuallyDigitized">
+								<gml:Point>
+									<gml:coordinates/>
+								</gml:Point>
+							</GeographicLocation>
+							<KmRibbonLocation kmRibbonRef="0b39bcb4-be80-4fb7-b75d-41480c7f9a2f" value="15678"/>
+						</HeartPoint>
+					</OperationalPoint>
+				</OperationalPoints>
+				<TrainVacancyDetection>
+					<TrackCircuit trackCircuitType="GRS50hz" puic="87ea575c-f215-4038-bd52-798ec25ed5b8" name="4496AT" description="" isLampSection="False">
+						
+						<TrackFragments>
+							<TrackFragment railConnectionRef="234ba7b0-583c-4ee6-8c1c-ebe45ba5e5cc" fromMeasure="134.36" toMeasure="463.26"/>
+						</TrackFragments>
+						<InsulatedJointRefs>2e9a991a-eaed-4b4e-b856-42c9ea421043 3d004472-e699-4da4-bbfb-1da6e54fe70d</InsulatedJointRefs>
+					</TrackCircuit>
+				</TrainVacancyDetection>
+			</Demarcations>
+			<KilometerRibbons/>
+		</Groupings>
+	</Situation>
+</IMSpoor>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IMSpoor xmlns="http://www.prorail.nl/IMSpoor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xsi:schemaLocation="http://www.prorail.nl/IMSpoor IMSpoor-1.2.2-Communication.xsd" imxVersion="1.2.2">
+	<Project puic="77a362bf-8dd8-4061-b098-b3070585146e" name="x2016/23">
+		<InitialSituation perspectiveDate="2016-02-12T00:00:00+02:00" referenceDate="2016-10-12T00:00:00+02:00">
+			<Groupings>
+				<KilometerRibbons>
+					<KilometerRibbon puic="d1646e01-d66c-4ac9-9730-82221ff9838e" name="Zp-Esg" kmFrom="2.4" kmTo="59.727" description="Zutphen - Enschede Grens">
+						<Location>
+							<GeographicLocation dataAcquisitionMethod="DGPS">
+								<gml:LineString srsName="EPSG:28992">
+									<gml:coordinates>211654.10,463964.308 211693.407,464008.664</gml:coordinates>
+								</gml:LineString>
+							</GeographicLocation>
+						</Location>
+						<Measures>0.0 100.0</Measures>
+					</KilometerRibbon>
+				</KilometerRibbons>
+			</Groupings>
+		</InitialSituation>
+		<NewSituation perspectiveDate="2016-10-12T00:00:00+02:00" referenceDate="2016-11-12T00:00:00+01:00">
+			<Groupings>
+				<KilometerRibbons>
+					<KilometerRibbon puic="d1646e01-d66c-4ac9-9730-82221ff9838e" name="Zp-Esg" kmFrom="2.4" kmTo="59.727" description="Zutphen tot vlak voor de grens">
+						<Location>
+							<GeographicLocation dataAcquisitionMethod="DGPS">
+								<gml:LineString srsName="EPSG:28992">
+									<gml:coordinates>211654.10,463964.308 211693.407,464008.664</gml:coordinates>
+								</gml:LineString>
+							</GeographicLocation>
+						</Location>
+						<Measures>0.0 100.0</Measures>
+					</KilometerRibbon>
+				</KilometerRibbons>
+			</Groupings>
+		</NewSituation>
+		<SituationChanges>
+		</SituationChanges>
+		<ProjectMetadata projectType="StandardVerificationSurvey" createdDate="2016-02-24T00:00:00">
+			<UserArea>
+				<gml:Polygon>
+					<gml:outerBoundaryIs>
+						<gml:LinearRing>
+							<gml:coordinates/>
+						</gml:LinearRing>
+					</gml:outerBoundaryIs>
+				</gml:Polygon>
+			</UserArea>
+		</ProjectMetadata>
+	</Project>
+</IMSpoor>

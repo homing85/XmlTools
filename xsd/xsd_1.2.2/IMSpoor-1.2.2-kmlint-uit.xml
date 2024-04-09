@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IMSpoor xmlns="http://www.prorail.nl/IMSpoor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xsi:schemaLocation="http://www.prorail.nl/IMSpoor IMSpoor-1.2.2-Communication.xsd" imxVersion="1.2.2">
+	<Project puic="7402ecea-d825-44d7-8a87-a28ff2ba9e38" name="km/2016-45">
+		<InitialSituation referenceDate="2016-12-12T00:00:00+02:00" perspectiveDate="2015-12-12T00:00:00+02:00">
+			<Groupings>
+				<KilometerRibbons>
+					<KilometerRibbon puic="f9bb7ab3-414d-4a1c-835a-30cd68e273bd" name="Zp-Esg" kmFrom="2.4" kmTo="59.727" description="Zutphen - Enschede Grens">
+						<Location>
+							<GeographicLocation dataAcquisitionMethod="Sketch">
+								<gml:LineString srsName="EPSG:28992">
+									<gml:coordinates>211654.102 463964.308 211693.407,464008.664</gml:coordinates>
+								</gml:LineString>
+							</GeographicLocation>
+						</Location>
+						<Measures>0.0 100.0</Measures>
+					</KilometerRibbon>
+				</KilometerRibbons>
+			</Groupings>
+		</InitialSituation>
+		<SituationChanges/>
+		<ProjectMetadata projectType="StandardVerificationSurvey" createdDate="2016-02-24T00:00:00">
+			<UserArea>
+				<gml:Polygon>
+					<gml:outerBoundaryIs>
+						<gml:LinearRing>
+							<gml:coordinates/>
+						</gml:LinearRing>
+					</gml:outerBoundaryIs>
+				</gml:Polygon>
+			</UserArea>
+		</ProjectMetadata>
+	</Project>
+</IMSpoor>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IMSpoor xmlns="http://www.prorail.nl/IMSpoor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xsi:schemaLocation="http://www.prorail.nl/IMSpoor IMSpoor-1.2.2-Communication.xsd" imxVersion="1.2.2">
+	<Project puic="82afd10f-bebd-43a8-aa38-a6cc9dc7f854" name="x2016/23">
+		<InitialSituation perspectiveDate="2016-02-12T00:00:00+02:00" referenceDate="2016-10-12T00:00:00+02:00">
+			<RailInfrastructure>
+				<RailTopology>
+					<MicroNodes/>
+					<MicroLinks/>
+				</RailTopology>
+				<RailImplementation>
+					<Junctions/>
+					<Tracks/>
+				</RailImplementation>
+				<TrackAssets/>
+			</RailInfrastructure>
+			<Groupings/>
+		</InitialSituation>
+		<NewSituation perspectiveDate="2016-10-12T00:00:00+02:00" referenceDate="2016-11-12T00:00:00+01:00">
+			<RailInfrastructure>
+				<RailTopology>
+					<MicroNodes/>
+					<MicroLinks/>
+				</RailTopology>
+				<RailImplementation>
+					<Junctions/>
+					<Tracks/>
+				</RailImplementation>
+				<TrackAssets/>
+			</RailInfrastructure>
+			<Groupings/>
+		</NewSituation>
+		<SituationChanges>
+		</SituationChanges>
+		<ProjectMetadata projectType="StandardVerificationSurvey" createdDate="2016-02-24T00:00:00">
+			<UserArea>
+				<gml:Polygon>
+					<gml:outerBoundaryIs>
+						<gml:LinearRing>
+							<gml:coordinates/>
+						</gml:LinearRing>
+					</gml:outerBoundaryIs>
+				</gml:Polygon>
+			</UserArea>
+		</ProjectMetadata>
+	</Project>
+</IMSpoor>
