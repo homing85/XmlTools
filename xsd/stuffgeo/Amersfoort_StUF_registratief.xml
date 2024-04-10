@@ -1,0 +1,549 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--StUF Imgeo aangemaakt door Koos-->
+<imgeo:mtbSVBDi01 xmlns:StUF="http://www.egem.nl/StUF/StUF0301" xmlns:imgeo="http://www.geostandaarden.nl/imgeo/2.1/stuf-imgeo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.geostandaarden.nl/imgeo/2.1/stuf-imgeo D:/Data/IMGEO/BGT/imgeo0300_20130405/imgeo0300/verticaal/imgeo0300_msg_verticaal.xsd">
+  <imgeo:stuurgegevens>
+    <StUF:berichtcode>Di01</StUF:berichtcode>
+    <StUF:zender>
+      <StUF:applicatie>NgDW</StUF:applicatie>
+    </StUF:zender>
+    <StUF:ontvanger>
+      <StUF:applicatie>LVBGT</StUF:applicatie>
+    </StUF:ontvanger>
+    <StUF:referentienummer>G0001.1</StUF:referentienummer>
+    <StUF:tijdstipBericht>20131120141734770</StUF:tijdstipBericht>
+    <StUF:functie>mutatieberichtVerticaal</StUF:functie>
+  </imgeo:stuurgegevens>
+  <imgeo:mutatiebericht StUF:functie="entiteit" StUF:entiteittype="MTB">
+    <imgeo:identificatie>G0001.3e899154d8284defa4717656543e72f5</imgeo:identificatie>
+    <imgeo:toelichting>Mutatie levering bronhouder:G0001</imgeo:toelichting>
+  </imgeo:mutatiebericht>
+  <imgeo:brtLk01T StUF:entiteittype="BRT" StUF:functie="update">
+    <imgeo:parameters>
+      <StUF:mutatiesoort>T</StUF:mutatiesoort>
+      <StUF:indicatorOvername>V</StUF:indicatorOvername>
+    </imgeo:parameters>
+    <imgeo:object StUF:entiteittype="BRT" StUF:verwerkingssoort="T">
+      <imgeo:identificatie>
+        <imgeo:namespace>NL.IMGEO</imgeo:namespace>
+        <imgeo:lokaalID>G0307.5cf01d18a9f5444e9b7574bb2d0f9d50</imgeo:lokaalID>
+      </imgeo:identificatie>
+      <imgeo:creationDate>2013-09-27</imgeo:creationDate>
+      <imgeo:terminationDate xsi:nil="true" StUF:noValue="geenWaarde" />
+      <StUF:tijdstipRegistratie>20130927164250</StUF:tijdstipRegistratie>
+      <imgeo:bronhouder>G0307</imgeo:bronhouder>
+      <imgeo:inOnderzoek StUF:metagegeven="true" xsi:nil="true" StUF:noValue="geenWaarde" />
+      <imgeo:relatieveHoogteligging>-8</imgeo:relatieveHoogteligging>
+      <imgeo:bgt-status codeSpace="http://www.geostandaarden.nl/imgeo/def/2.1#Status">bestaand</imgeo:bgt-status>
+      <imgeo:plus-status codeSpace="http://www.geostandaarden.nl/imgeo/def/2.1#VoidReasonValue" xsi:nil="true" StUF:noValue="geenWaarde" />
+      <imgeo:buurtcode>03070600</imgeo:buurtcode>
+      <imgeo:naam>Jericho en Jeruzalem</imgeo:naam>
+      <imgeo:ligtIn StUF:entiteittype="BRTWYK" StUF:verwerkingssoort="T" xsi:nil="true" StUF:noValue="geenWaarde" />
+      <imgeo:geometrie2d>
+        <MultiSurface srsName="urn:ogc:def:crs:EPSG::28992" xmlns="http://www.opengis.net/gml">
+          <surfaceMember>
+            <Surface>
+              <patches>
+                <PolygonPatch>
+                  <exterior>
+                    <LinearRing>
+                      <posList srsDimension="2">154974.34 463773.428 154879.937 463869.163 154834.581 463915.159 154824.275 463925.61 154814.239 463935.788 154793.134 463958.142 154769.289 463980.642 154750.012 463996.765 154723.664 464017.023 154710.436 464026.412 154587.535 464113.644 154572.028 464123.862 154540.929 464146.58 154497.827 464133.076 154461.244 464123.068 154419.043 464114.249 154284.53 464101.441 154288.708 463970.678 154302.492 463889.064 154320.455 463841.703 154369.749 463804.172 154427.115 463765.484 154438.362 463787.093 154442.573 463800.869 154444.835 463816.579 154444.84 463817.67 154506.603 463812.477 154556.671 463808.267 154563.507 463809.005 154620.525 463815.159 154679.395 463821.512 154692.414 463822.917 154707.125 463823.817 154723.15 463823.04 154728.249 463821.598 154737.99 463818.844 154748.609 463814.593 154750.039 463813.911 154769.902 463803.876 154773.162 463801.722 154797.072 463785.925 154817.852 463772.196 154840.412 463757.291 154852.82 463749.093 154854.393 463748.235 154861.49 463744.363 154866.243 463741.77 154876.7 463738.05 154890.809 463736.751 154897.532 463737.929 154906.722 463739.539 154921.7 463743.407 154936.658 463749.23 154950.229 463755.757 154964.024 463764.081 154974.34 463773.428</posList>
+                    </LinearRing>
+                  </exterior>
+                </PolygonPatch>
+              </patches>
+            </Surface>
+          </surfaceMember>
+        </MultiSurface>
+      </imgeo:geometrie2d>
+    </imgeo:object>
+  </imgeo:brtLk01T>
+  <imgeo:brtLk01T StUF:entiteittype="BRT" StUF:functie="update">
+    <imgeo:parameters>
+      <StUF:mutatiesoort>T</StUF:mutatiesoort>
+      <StUF:indicatorOvername>V</StUF:indicatorOvername>
+    </imgeo:parameters>
+    <imgeo:object StUF:entiteittype="BRT" StUF:verwerkingssoort="T">
+      <imgeo:identificatie>
+        <imgeo:namespace>NL.IMGEO</imgeo:namespace>
+        <imgeo:lokaalID>G0307.b4ac29031ddf48a38f001d4398e6ec76</imgeo:lokaalID>
+      </imgeo:identificatie>
+      <imgeo:creationDate>2013-09-27</imgeo:creationDate>
+      <imgeo:terminationDate xsi:nil="true" StUF:noValue="geenWaarde" />
+      <StUF:tijdstipRegistratie>20130927164250</StUF:tijdstipRegistratie>
+      <imgeo:bronhouder>G0307</imgeo:bronhouder>
+      <imgeo:inOnderzoek StUF:metagegeven="true" xsi:nil="true" StUF:noValue="geenWaarde" />
+      <imgeo:relatieveHoogteligging>-8</imgeo:relatieveHoogteligging>
+      <imgeo:bgt-status codeSpace="http://www.geostandaarden.nl/imgeo/def/2.1#Status">bestaand</imgeo:bgt-status>
+      <imgeo:plus-status codeSpace="http://www.geostandaarden.nl/imgeo/def/2.1#VoidReasonValue" xsi:nil="true" StUF:noValue="geenWaarde" />
+      <imgeo:buurtcode>03070603</imgeo:buurtcode>
+      <imgeo:naam>Gildekwartier</imgeo:naam>
+      <imgeo:ligtIn StUF:entiteittype="BRTWYK" StUF:verwerkingssoort="T" xsi:nil="true" StUF:noValue="geenWaarde" />
+      <imgeo:geometrie2d>
+        <MultiSurface srsName="urn:ogc:def:crs:EPSG::28992" xmlns="http://www.opengis.net/gml">
+          <surfaceMember>
+            <Surface>
+              <patches>
+                <PolygonPatch>
+                  <exterior>
+                    <LinearRing>
+                      <posList srsDimension="2">154427.115 463765.484 154437.84 463758.251 154545.409 463708.111 154619.907 463661.445 154691.968 463600.631 154764.724 463524.924 154817.904 463471.244 154821.94 463476.523 154880.967 463554.212 154986.134 463692.103 155014.258 463728.923 155012.684 463730.778 154997.31 463748.88 154995.14 463751.451 154989.938 463757.614 154974.34 463773.428 154964.024 463764.081 154950.229 463755.757 154936.658 463749.23 154921.7 463743.407 154906.722 463739.539 154897.532 463737.929 154890.809 463736.751 154876.7 463738.05 154866.243 463741.77 154861.49 463744.363 154854.393 463748.235 154852.82 463749.093 154840.412 463757.291 154817.852 463772.196 154797.072 463785.925 154773.162 463801.722 154769.902 463803.876 154750.039 463813.911 154748.609 463814.593 154737.99 463818.844 154728.249 463821.598 154723.15 463823.04 154707.125 463823.817 154692.414 463822.917 154679.395 463821.512 154620.525 463815.159 154563.507 463809.005 154556.671 463808.267 154506.603 463812.477 154444.84 463817.67 154444.835 463816.579 154442.573 463800.869 154438.362 463787.093 154427.115 463765.484</posList>
+                    </LinearRing>
+                  </exterior>
+                </PolygonPatch>
+              </patches>
+            </Surface>
+          </surfaceMember>
+        </MultiSurface>
+      </imgeo:geometrie2d>
+    </imgeo:object>
+  </imgeo:brtLk01T>
+  <imgeo:brtLk01T StUF:entiteittype="BRT" StUF:functie="update">
+    <imgeo:parameters>
+      <StUF:mutatiesoort>T</StUF:mutatiesoort>
+      <StUF:indicatorOvername>V</StUF:indicatorOvername>
+    </imgeo:parameters>
+    <imgeo:object StUF:entiteittype="BRT" StUF:verwerkingssoort="T">
+      <imgeo:identificatie>
+        <imgeo:namespace>NL.IMGEO</imgeo:namespace>
+        <imgeo:lokaalID>G0307.8b85330e6f1c409caec6916aea8fc958</imgeo:lokaalID>
+      </imgeo:identificatie>
+      <imgeo:creationDate>2013-09-27</imgeo:creationDate>
+      <imgeo:terminationDate xsi:nil="true" StUF:noValue="geenWaarde" />
+      <StUF:tijdstipRegistratie>20130927164250</StUF:tijdstipRegistratie>
+      <imgeo:bronhouder>G0307</imgeo:bronhouder>
+      <imgeo:inOnderzoek StUF:metagegeven="true" xsi:nil="true" StUF:noValue="geenWaarde" />
+      <imgeo:relatieveHoogteligging>-8</imgeo:relatieveHoogteligging>
+      <imgeo:bgt-status codeSpace="http://www.geostandaarden.nl/imgeo/def/2.1#Status">bestaand</imgeo:bgt-status>
+      <imgeo:plus-status codeSpace="http://www.geostandaarden.nl/imgeo/def/2.1#VoidReasonValue" xsi:nil="true" StUF:noValue="geenWaarde" />
+      <imgeo:buurtcode>03070601</imgeo:buurtcode>
+      <imgeo:naam>Meridiaan</imgeo:naam>
+      <imgeo:ligtIn StUF:entiteittype="BRTWYK" StUF:verwerkingssoort="T" xsi:nil="true" StUF:noValue="geenWaarde" />
+      <imgeo:geometrie2d>
+        <MultiSurface srsName="urn:ogc:def:crs:EPSG::28992" xmlns="http://www.opengis.net/gml">
+          <surfaceMember>
+            <Surface>
+              <patches>
+                <PolygonPatch>
+                  <exterior>
+                    <LinearRing>
+                      <posList srsDimension="2">154974.34 463773.428 154989.938 463757.614 154995.14 463751.451 154997.31 463748.88 155012.684 463730.778 155014.258 463728.923 155114.155 463859.705 155360.735 464176.733 155465.331 464309.609 155501.076 464354.767 155469.528 464374.51 155468.214 464375.332 155407.472 464413.344 155354.25 464429.855 155305.675 464436.555 155251.817 464432.335 155191.729 464413.677 155178.429 464409.546 154848.197 464279.015 154648.384 464200.034 154541.442 464146.716 154540.929 464146.58 154572.028 464123.862 154587.535 464113.644 154710.436 464026.412 154723.664 464017.023 154750.012 463996.765 154769.289 463980.642 154793.134 463958.142 154814.239 463935.788 154824.275 463925.61 154834.581 463915.159 154879.937 463869.163 154974.34 463773.428</posList>
+                    </LinearRing>
+                  </exterior>
+                </PolygonPatch>
+              </patches>
+            </Surface>
+          </surfaceMember>
+        </MultiSurface>
+      </imgeo:geometrie2d>
+    </imgeo:object>
+  </imgeo:brtLk01T>
+  <imgeo:brtLk01T StUF:entiteittype="BRT" StUF:functie="update">
+    <imgeo:parameters>
+      <StUF:mutatiesoort>T</StUF:mutatiesoort>
+      <StUF:indicatorOvername>V</StUF:indicatorOvername>
+    </imgeo:parameters>
+    <imgeo:object StUF:entiteittype="BRT" StUF:verwerkingssoort="T">
+      <imgeo:identificatie>
+        <imgeo:namespace>NL.IMGEO</imgeo:namespace>
+        <imgeo:lokaalID>G0307.84580aaa044b40c9804e54395647fb4b</imgeo:lokaalID>
+      </imgeo:identificatie>
+      <imgeo:creationDate>2013-09-27</imgeo:creationDate>
+      <imgeo:terminationDate xsi:nil="true" StUF:noValue="geenWaarde" />
+      <StUF:tijdstipRegistratie>20130927164250</StUF:tijdstipRegistratie>
+      <imgeo:bronhouder>G0307</imgeo:bronhouder>
+      <imgeo:inOnderzoek StUF:metagegeven="true" xsi:nil="true" StUF:noValue="geenWaarde" />
+      <imgeo:relatieveHoogteligging>-8</imgeo:relatieveHoogteligging>
+      <imgeo:bgt-status codeSpace="http://www.geostandaarden.nl/imgeo/def/2.1#Status">bestaand</imgeo:bgt-status>
+      <imgeo:plus-status codeSpace="http://www.geostandaarden.nl/imgeo/def/2.1#VoidReasonValue" xsi:nil="true" StUF:noValue="geenWaarde" />
+      <imgeo:buurtcode>03070803</imgeo:buurtcode>
+      <imgeo:naam>Koperhorst</imgeo:naam>
+      <imgeo:ligtIn StUF:entiteittype="BRTWYK" StUF:verwerkingssoort="T" xsi:nil="true" StUF:noValue="geenWaarde" />
+      <imgeo:geometrie2d>
+        <MultiSurface srsName="urn:ogc:def:crs:EPSG::28992" xmlns="http://www.opengis.net/gml">
+          <surfaceMember>
+            <Surface>
+              <patches>
+                <PolygonPatch>
+                  <exterior>
+                    <LinearRing>
+                      <posList srsDimension="2">155234.698 464946.419 155229.118 464921.007 155206.116 464610.379 155197.654 464499.943 155191.729 464413.677 155251.817 464432.335 155305.675 464436.555 155354.25 464429.855 155407.472 464413.344 155468.214 464375.332 155634.269 464601.921 155724.32 464725.242 155747.97 464754.09 155722.091 464775.475 155731.619 464908.707 155234.698 464946.419</posList>
+                    </LinearRing>
+                  </exterior>
+                </PolygonPatch>
+              </patches>
+            </Surface>
+          </surfaceMember>
+        </MultiSurface>
+      </imgeo:geometrie2d>
+    </imgeo:object>
+  </imgeo:brtLk01T>
+  <imgeo:brtLk01T StUF:entiteittype="BRT" StUF:functie="update">
+    <imgeo:parameters>
+      <StUF:mutatiesoort>T</StUF:mutatiesoort>
+      <StUF:indicatorOvername>V</StUF:indicatorOvername>
+    </imgeo:parameters>
+    <imgeo:object StUF:entiteittype="BRT" StUF:verwerkingssoort="T">
+      <imgeo:identificatie>
+        <imgeo:namespace>NL.IMGEO</imgeo:namespace>
+        <imgeo:lokaalID>G0307.37c24503b98d4c8ea4d41d04b45dbe90</imgeo:lokaalID>
+      </imgeo:identificatie>
+      <imgeo:creationDate>2013-09-27</imgeo:creationDate>
+      <imgeo:terminationDate xsi:nil="true" StUF:noValue="geenWaarde" />
+      <StUF:tijdstipRegistratie>20130927164250</StUF:tijdstipRegistratie>
+      <imgeo:bronhouder>G0307</imgeo:bronhouder>
+      <imgeo:inOnderzoek StUF:metagegeven="true" xsi:nil="true" StUF:noValue="geenWaarde" />
+      <imgeo:relatieveHoogteligging>-8</imgeo:relatieveHoogteligging>
+      <imgeo:bgt-status codeSpace="http://www.geostandaarden.nl/imgeo/def/2.1#Status">bestaand</imgeo:bgt-status>
+      <imgeo:plus-status codeSpace="http://www.geostandaarden.nl/imgeo/def/2.1#VoidReasonValue" xsi:nil="true" StUF:noValue="geenWaarde" />
+      <imgeo:buurtcode>03070801</imgeo:buurtcode>
+      <imgeo:naam>de Plaatsen</imgeo:naam>
+      <imgeo:ligtIn StUF:entiteittype="BRTWYK" StUF:verwerkingssoort="T" xsi:nil="true" StUF:noValue="geenWaarde" />
+      <imgeo:geometrie2d>
+        <MultiSurface srsName="urn:ogc:def:crs:EPSG::28992" xmlns="http://www.opengis.net/gml">
+          <surfaceMember>
+            <Surface>
+              <patches>
+                <PolygonPatch>
+                  <exterior>
+                    <LinearRing>
+                      <posList srsDimension="2">155191.729 464413.677 155197.654 464499.943 155206.116 464610.379 155229.118 464921.007 155234.698 464946.419 155237.884 464960.929 155222.012 464965.282 155210.845 464966.609 155200.186 464965.765 155176.668 464957.561 155173.114 464956.475 155167.362 464957.32 155104.084 464932.468 155094.01 464957.872 155043.609 464937.816 155012.888 464925.591 154984.375 464914.326 154635.948 464776.663 154638.304 464774.513 154658.737 464756.436 154734.596 464566.088 154772.392 464468.986 154813.67 464368.207 154848.197 464279.015 155178.429 464409.546 155191.729 464413.677</posList>
+                    </LinearRing>
+                  </exterior>
+                </PolygonPatch>
+              </patches>
+            </Surface>
+          </surfaceMember>
+        </MultiSurface>
+      </imgeo:geometrie2d>
+    </imgeo:object>
+  </imgeo:brtLk01T>
+  <imgeo:brtLk01T StUF:entiteittype="BRT" StUF:functie="update">
+    <imgeo:parameters>
+      <StUF:mutatiesoort>T</StUF:mutatiesoort>
+      <StUF:indicatorOvername>V</StUF:indicatorOvername>
+    </imgeo:parameters>
+    <imgeo:object StUF:entiteittype="BRT" StUF:verwerkingssoort="T">
+      <imgeo:identificatie>
+        <imgeo:namespace>NL.IMGEO</imgeo:namespace>
+        <imgeo:lokaalID>G0307.2f7bb4de8b554f4f9c22867039d055cc</imgeo:lokaalID>
+      </imgeo:identificatie>
+      <imgeo:creationDate>2013-09-27</imgeo:creationDate>
+      <imgeo:terminationDate xsi:nil="true" StUF:noValue="geenWaarde" />
+      <StUF:tijdstipRegistratie>20130927164250</StUF:tijdstipRegistratie>
+      <imgeo:bronhouder>G0307</imgeo:bronhouder>
+      <imgeo:inOnderzoek StUF:metagegeven="true" xsi:nil="true" StUF:noValue="geenWaarde" />
+      <imgeo:relatieveHoogteligging>-8</imgeo:relatieveHoogteligging>
+      <imgeo:bgt-status codeSpace="http://www.geostandaarden.nl/imgeo/def/2.1#Status">bestaand</imgeo:bgt-status>
+      <imgeo:plus-status codeSpace="http://www.geostandaarden.nl/imgeo/def/2.1#VoidReasonValue" xsi:nil="true" StUF:noValue="geenWaarde" />
+      <imgeo:buurtcode>03070800</imgeo:buurtcode>
+      <imgeo:naam>Vuurtoren</imgeo:naam>
+      <imgeo:ligtIn StUF:entiteittype="BRTWYK" StUF:verwerkingssoort="T" xsi:nil="true" StUF:noValue="geenWaarde" />
+      <imgeo:geometrie2d>
+        <MultiSurface srsName="urn:ogc:def:crs:EPSG::28992" xmlns="http://www.opengis.net/gml">
+          <surfaceMember>
+            <Surface>
+              <patches>
+                <PolygonPatch>
+                  <exterior>
+                    <LinearRing>
+                      <posList srsDimension="2">154848.197 464279.015 154813.67 464368.207 154772.392 464468.986 154734.596 464566.088 154658.737 464756.436 154638.304 464774.513 154635.948 464776.663 154631.488 464774.901 154426.416 464695.341 154384.452 464734.657 154246.894 464682.299 154156.787 464644.759 154091.197 464623.459 154129.443 464582.193 154168.255 464529.36 154181.78 464505.46 154193.982 464469.814 154196.327 464460.962 154199.684 464429.566 154200.438 464393.19 154199.727 464351.692 154198.545 464294.715 154200.605 464238.716 154178.174 464230.578 154158.956 464217.517 154142.349 464199.392 154133.294 464189.481 154136.726 464187.483 154284.53 464101.441 154419.043 464114.249 154461.244 464123.068 154497.827 464133.076 154540.929 464146.58 154541.442 464146.716 154648.384 464200.034 154848.197 464279.015</posList>
+                    </LinearRing>
+                  </exterior>
+                </PolygonPatch>
+              </patches>
+            </Surface>
+          </surfaceMember>
+        </MultiSurface>
+      </imgeo:geometrie2d>
+    </imgeo:object>
+  </imgeo:brtLk01T>
+  <imgeo:fugLk01T StUF:entiteittype="FUG" StUF:functie="update">
+    <imgeo:parameters>
+      <StUF:mutatiesoort>T</StUF:mutatiesoort>
+      <StUF:indicatorOvername>V</StUF:indicatorOvername>
+    </imgeo:parameters>
+    <imgeo:object StUF:entiteittype="FUG" StUF:verwerkingssoort="T">
+      <imgeo:identificatie>
+        <imgeo:namespace>NL.IMGEO</imgeo:namespace>
+        <imgeo:lokaalID>G0307.f5b4de3d8795481290f6d6b2b4624075</imgeo:lokaalID>
+      </imgeo:identificatie>
+      <imgeo:creationDate>2013-09-27</imgeo:creationDate>
+      <imgeo:terminationDate xsi:nil="true" StUF:noValue="geenWaarde" />
+      <StUF:tijdstipRegistratie>20130927164250</StUF:tijdstipRegistratie>
+      <imgeo:bronhouder>G0307</imgeo:bronhouder>
+      <imgeo:inOnderzoek StUF:metagegeven="true" xsi:nil="true" StUF:noValue="geenWaarde" />
+      <imgeo:relatieveHoogteligging>-6</imgeo:relatieveHoogteligging>
+      <imgeo:bgt-status codeSpace="http://www.geostandaarden.nl/imgeo/def/2.1#Status">bestaand</imgeo:bgt-status>
+      <imgeo:plus-status codeSpace="http://www.geostandaarden.nl/imgeo/def/2.1#VoidReasonValue" xsi:nil="true" StUF:noValue="geenWaarde" />
+      <imgeo:naam>Moeras Hooglandsedijk</imgeo:naam>
+      <imgeo:bgt-type codeSpace="http://www.geostandaarden.nl/imgeo/def/2.1#TypeFunctioneelGebied">niet-bgt</imgeo:bgt-type>
+      <imgeo:plus-type codeSpace="http://www.geostandaarden.nl/imgeo/def/2.1#TypeFunctioneelGebiedPlus">natuur en landschap</imgeo:plus-type>
+      <imgeo:geometrie2dFunctioneelGebied>
+        <Surface srsName="urn:ogc:def:crs:EPSG::28992" xmlns="http://www.opengis.net/gml">
+          <patches>
+            <PolygonPatch>
+              <exterior>
+                <LinearRing>
+                  <posList srsDimension="2">154514.46 463979.961 154678.746 463911.643 154748.684 463918.133 154794.769 463923.739 154787.724 463957.15 154758.92 463983.382 154688.701 463954.815 154659.82 463983.439 154623.44 464001.106 154580.675 464012.618 154530.977 464025.997 154499.586 464050.969 154474.406 464054.542 154477.648 464030.96 154514.46 463979.961</posList>
+                </LinearRing>
+              </exterior>
+            </PolygonPatch>
+          </patches>
+        </Surface>
+      </imgeo:geometrie2dFunctioneelGebied>
+    </imgeo:object>
+  </imgeo:fugLk01T>
+  <imgeo:oprLk01T StUF:entiteittype="OPR" StUF:functie="update">
+    <imgeo:parameters>
+      <StUF:mutatiesoort>T</StUF:mutatiesoort>
+      <StUF:indicatorOvername>V</StUF:indicatorOvername>
+    </imgeo:parameters>
+    <imgeo:object StUF:entiteittype="OPR" StUF:verwerkingssoort="T">
+      <imgeo:identificatie>
+        <imgeo:namespace>NL.IMGEO</imgeo:namespace>
+        <imgeo:lokaalID>G0307.c3692d6e485e4a738f62a4f2249ec30c</imgeo:lokaalID>
+      </imgeo:identificatie>
+      <imgeo:creationDate>2013-09-27</imgeo:creationDate>
+      <imgeo:terminationDate xsi:nil="true" StUF:noValue="geenWaarde" />
+      <StUF:tijdstipRegistratie>20130927164250</StUF:tijdstipRegistratie>
+      <imgeo:bronhouder>G0307</imgeo:bronhouder>
+      <imgeo:inOnderzoek StUF:metagegeven="true" xsi:nil="true" StUF:noValue="geenWaarde" />
+      <imgeo:relatieveHoogteligging>-5</imgeo:relatieveHoogteligging>
+      <imgeo:bgt-status codeSpace="http://www.geostandaarden.nl/imgeo/def/2.1#Status">bestaand</imgeo:bgt-status>
+      <imgeo:plus-status codeSpace="http://www.geostandaarden.nl/imgeo/def/2.1#VoidReasonValue" xsi:nil="true" StUF:noValue="geenWaarde" />
+      <imgeo:identificatieBAG>0000000000000000</imgeo:identificatieBAG>
+      <imgeo:heeftLabels StUF:entiteittype="OPRORL" StUF:verwerkingssoort="T" xsi:nil="true" StUF:noValue="geenWaarde" />
+      <imgeo:geometrie2d>
+        <Surface srsName="urn:ogc:def:crs:EPSG::28992" xmlns="http://www.opengis.net/gml">
+          <patches>
+            <PolygonPatch>
+              <exterior>
+                <LinearRing>
+                  <posList srsDimension="2">154882.641 464230.375 154893.157 464230.136 154954.083 464254.046 154953.882 464254.597 154963.461 464258.091 154962.421 464260.588 155005.948 464277.932 155077.94 464307.795 155144.76 464333.951 155170.349 464338.653 155181.259 464347.066 155182.189 464369.64 155181.499 464379.787 155137.583 464363.373 155118.573 464356.545 155099.695 464349.361 155049.848 464329.271 155000 464309.181 154974.01 464299.115 154949.015 464291.886 154911.605 464276.845 154866.782 464258.932 154838.035 464244.131 154721.046 464197.642 154660.885 464173.674 154628.532 464159.64 154619.803 464155.712 154574.439 464133.171 154549.243 464120.466 154506.426 464102.508 154463.528 464092.875 154468.442 464070.934 154496.763 464079.072 154516.595 464085.863 154536.064 464093.634 154576.473 464112.798 154589.024 464108.009 154594.023 464111.232 154596.253 464111.428 154601.624 464112.415 154605.634 464113.651 154606.695 464119.317 154619.498 464124.901 154650.882 464138.219 154698.424 464157.107 154710.34 464163.173 154757.147 464181.712 154803.953 464200.251 154843.783 464215.885 154852.504 464223.999 154861.194 464229.657 154872.893 464231.77 154882.641 464230.375</posList>
+                </LinearRing>
+              </exterior>
+            </PolygonPatch>
+          </patches>
+        </Surface>
+      </imgeo:geometrie2d>
+    </imgeo:object>
+  </imgeo:oprLk01T>
+  <imgeo:oprLk01T StUF:entiteittype="OPR" StUF:functie="update">
+    <imgeo:parameters>
+      <StUF:mutatiesoort>T</StUF:mutatiesoort>
+      <StUF:indicatorOvername>V</StUF:indicatorOvername>
+    </imgeo:parameters>
+    <imgeo:object StUF:entiteittype="OPR" StUF:verwerkingssoort="T">
+      <imgeo:identificatie>
+        <imgeo:namespace>NL.IMGEO</imgeo:namespace>
+        <imgeo:lokaalID>G0307.b4a15fc0d43546698db4923511953619</imgeo:lokaalID>
+      </imgeo:identificatie>
+      <imgeo:creationDate>2013-09-27</imgeo:creationDate>
+      <imgeo:terminationDate xsi:nil="true" StUF:noValue="geenWaarde" />
+      <StUF:tijdstipRegistratie>20130927164250</StUF:tijdstipRegistratie>
+      <imgeo:bronhouder>G0307</imgeo:bronhouder>
+      <imgeo:inOnderzoek StUF:metagegeven="true" xsi:nil="true" StUF:noValue="geenWaarde" />
+      <imgeo:relatieveHoogteligging>-5</imgeo:relatieveHoogteligging>
+      <imgeo:bgt-status codeSpace="http://www.geostandaarden.nl/imgeo/def/2.1#Status">bestaand</imgeo:bgt-status>
+      <imgeo:plus-status codeSpace="http://www.geostandaarden.nl/imgeo/def/2.1#VoidReasonValue" xsi:nil="true" StUF:noValue="geenWaarde" />
+      <imgeo:identificatieBAG>0000000000000000</imgeo:identificatieBAG>
+      <imgeo:heeftLabels StUF:entiteittype="OPRORL" StUF:verwerkingssoort="T" xsi:nil="true" StUF:noValue="geenWaarde" />
+      <imgeo:geometrie2d>
+        <Surface srsName="urn:ogc:def:crs:EPSG::28992" xmlns="http://www.opengis.net/gml">
+          <patches>
+            <PolygonPatch>
+              <exterior>
+                <LinearRing>
+                  <posList srsDimension="2">154589.024 464108.009 154592.549 464095.662 154595.843 464096.037 154597.919 464095.604 154600.89 464094.197 154617.028 464082.809 154645.34 464062.821 154686.694 464033.625 154708.128 464018.492 154726.315 464005.652 154735.245 463999.347 154749.999 463987.537 154762.622 463976.733 154783.756 463957.413 154798.919 463941.878 154813.404 463926.898 154828.976 463911.373 154841.774 463898.252 154863.227 463876.318 154868.712 463870.709 154873.428 463865.921 154881.16 463858.384 154889.148 463850.281 154893.505 463845.881 154899.614 463839.668 154909.13 463829.874 154917.494 463821.425 154919.697 463819.237 154924.881 463813.918 154955.755 463782.527 154966.522 463771.566 154973.09 463765.527 154975.414 463759.196 154987.508 463753.525 154991.536 463749.036 154992.761 463749.951 154995.035 463746.934 154994.174 463746.272 154996.812 463743.012 155005.554 463754.905 154998.466 463761.965 154990.533 463770.359 154988.853 463770.43 154967.965 463791.756 154963.057 463796.773 154938.874 463821.493 154936.929 463823.482 154920.592 463839.915 154859.115 463902.378 154839.506 463922.318 154831.799 463933.427 154828.252 463937.017 154826.756 463938.531 154812.783 463952.675 154811.55 463953.923 154801.589 463964.081 154797.63 463968.118 154788.766 463976.872 154784.923 463980.667 154770.865 463993.017 154755.553 464005.694 154742.8 464015.523 154721.755 464030.947 154714.123 464036.243 154697.035 464048.102 154680.622 464059.576 154672.846 464065.012 154668.731 464067.889 154664.616 464070.766 154647.793 464082.756 154637.311 464090.52 154616.572 464105.581 154608.184 464111.769 154605.634 464113.651 154601.624 464112.415 154596.253 464111.428 154594.023 464111.232 154589.024 464108.009</posList>
+                </LinearRing>
+              </exterior>
+            </PolygonPatch>
+          </patches>
+        </Surface>
+      </imgeo:geometrie2d>
+    </imgeo:object>
+  </imgeo:oprLk01T>
+  <imgeo:oprLk01T StUF:entiteittype="OPR" StUF:functie="update">
+    <imgeo:parameters>
+      <StUF:mutatiesoort>T</StUF:mutatiesoort>
+      <StUF:indicatorOvername>V</StUF:indicatorOvername>
+    </imgeo:parameters>
+    <imgeo:object StUF:entiteittype="OPR" StUF:verwerkingssoort="T">
+      <imgeo:identificatie>
+        <imgeo:namespace>NL.IMGEO</imgeo:namespace>
+        <imgeo:lokaalID>G0307.bec5058375b041528eda119ca2c8f9d8</imgeo:lokaalID>
+      </imgeo:identificatie>
+      <imgeo:creationDate>2013-09-27</imgeo:creationDate>
+      <imgeo:terminationDate xsi:nil="true" StUF:noValue="geenWaarde" />
+      <StUF:tijdstipRegistratie>20130927164250</StUF:tijdstipRegistratie>
+      <imgeo:bronhouder>G0307</imgeo:bronhouder>
+      <imgeo:inOnderzoek StUF:metagegeven="true" xsi:nil="true" StUF:noValue="geenWaarde" />
+      <imgeo:relatieveHoogteligging>-5</imgeo:relatieveHoogteligging>
+      <imgeo:bgt-status codeSpace="http://www.geostandaarden.nl/imgeo/def/2.1#Status">bestaand</imgeo:bgt-status>
+      <imgeo:plus-status codeSpace="http://www.geostandaarden.nl/imgeo/def/2.1#VoidReasonValue" xsi:nil="true" StUF:noValue="geenWaarde" />
+      <imgeo:identificatieBAG>0000000000000000</imgeo:identificatieBAG>
+      <imgeo:heeftLabels StUF:entiteittype="OPRORL" StUF:verwerkingssoort="T" xsi:nil="true" StUF:noValue="geenWaarde" />
+      <imgeo:geometrie2d>
+        <Surface srsName="urn:ogc:def:crs:EPSG::28992" xmlns="http://www.opengis.net/gml">
+          <patches>
+            <PolygonPatch>
+              <exterior>
+                <LinearRing>
+                  <posList srsDimension="2">154843.783 464215.885 154845.843 464216.257 154848.431 464215.719 154850.114 464214.674 154851.024 464213.606 154851.648 464212.361 154872.439 464159.969 154872.003 464158.481 154883.226 464130.701 154883.828 464129.212 154883.879 464128.098 154883.949 464126.575 154883.323 464125.473 154882.888 464124.708 154884.74 464117.194 154885.841 464117.049 154886.881 464116.724 154887.921 464116.399 154888.783 464115.374 154889.985 464113.376 154891.45 464104.175 154912.132 464052.088 154923.852 464022.572 154932.814 464000 154946.671 463963.829 154950.199 463952.345 154954.779 463949.846 154967.844 463943.276 154980.621 463944.787 154985.4 463960.868 154983.254 463962.772 154972.079 463990.667 154958.73 464025.233 154945.947 464057.365 154945.547 464058.665 154908.082 464153.228 154903.726 464162.962 154895.151 464184.742 154886.576 464206.522 154883.421 464221.3 154882.641 464230.375 154872.893 464231.77 154861.194 464229.657 154852.504 464223.999 154843.783 464215.885</posList>
+                </LinearRing>
+              </exterior>
+            </PolygonPatch>
+          </patches>
+        </Surface>
+      </imgeo:geometrie2d>
+    </imgeo:object>
+  </imgeo:oprLk01T>
+  <imgeo:stdLk01T StUF:entiteittype="STD" StUF:functie="update">
+    <imgeo:parameters>
+      <StUF:mutatiesoort>T</StUF:mutatiesoort>
+      <StUF:indicatorOvername>V</StUF:indicatorOvername>
+    </imgeo:parameters>
+    <imgeo:object StUF:entiteittype="STD" StUF:verwerkingssoort="T">
+      <imgeo:identificatie>
+        <imgeo:namespace>NL.IMGEO</imgeo:namespace>
+        <imgeo:lokaalID>G0307.3118b41200994a44b257290fe8621707</imgeo:lokaalID>
+      </imgeo:identificatie>
+      <imgeo:creationDate>2013-09-27</imgeo:creationDate>
+      <imgeo:terminationDate xsi:nil="true" StUF:noValue="geenWaarde" />
+      <StUF:tijdstipRegistratie>20130927164250</StUF:tijdstipRegistratie>
+      <imgeo:bronhouder>G0307</imgeo:bronhouder>
+      <imgeo:inOnderzoek StUF:metagegeven="true" xsi:nil="true" StUF:noValue="geenWaarde" />
+      <imgeo:relatieveHoogteligging>-10</imgeo:relatieveHoogteligging>
+      <imgeo:bgt-status codeSpace="http://www.geostandaarden.nl/imgeo/def/2.1#Status">bestaand</imgeo:bgt-status>
+      <imgeo:plus-status codeSpace="http://www.geostandaarden.nl/imgeo/def/2.1#VoidReasonValue" xsi:nil="true" StUF:noValue="geenWaarde" />
+      <imgeo:naam>`Noord</imgeo:naam>
+      <imgeo:geometrie2d>
+        <Surface srsName="urn:ogc:def:crs:EPSG::28992" xmlns="http://www.opengis.net/gml">
+          <patches>
+            <PolygonPatch>
+              <exterior>
+                <LinearRing>
+                  <posList srsDimension="2">154136.726 464187.483 154284.53 464101.441 154288.708 463970.678 154302.492 463889.064 154320.455 463841.703 154369.749 463804.172 154427.115 463765.484 154437.84 463758.251 154545.409 463708.111 154619.907 463661.445 154691.968 463600.631 154764.724 463524.924 154817.904 463471.244 154821.94 463476.523 154880.967 463554.212 154986.134 463692.103 155014.258 463728.923 155114.155 463859.705 155360.735 464176.733 155465.331 464309.609 155501.076 464354.767 155469.528 464374.51 155468.214 464375.332 155634.269 464601.921 155724.32 464725.242 155747.97 464754.09 155722.091 464775.475 155731.619 464908.707 155234.698 464946.419 155237.884 464960.929 155222.012 464965.282 155210.845 464966.609 155200.186 464965.765 155176.668 464957.561 155173.114 464956.475 155167.362 464957.32 155104.084 464932.468 155094.01 464957.872 155043.609 464937.816 155012.888 464925.591 154984.375 464914.326 154635.948 464776.663 154631.488 464774.901 154426.416 464695.341 154384.452 464734.657 154246.894 464682.299 154156.787 464644.759 154091.197 464623.459 154129.443 464582.193 154168.255 464529.36 154181.78 464505.46 154193.982 464469.814 154196.327 464460.962 154199.684 464429.566 154200.438 464393.19 154199.727 464351.692 154198.545 464294.715 154200.605 464238.716 154178.174 464230.578 154158.956 464217.517 154142.349 464199.392 154133.294 464189.481 154136.726 464187.483</posList>
+                </LinearRing>
+              </exterior>
+            </PolygonPatch>
+          </patches>
+        </Surface>
+      </imgeo:geometrie2d>
+    </imgeo:object>
+  </imgeo:stdLk01T>
+  <imgeo:wspLk01T StUF:entiteittype="WSP" StUF:functie="update">
+    <imgeo:parameters>
+      <StUF:mutatiesoort>T</StUF:mutatiesoort>
+      <StUF:indicatorOvername>V</StUF:indicatorOvername>
+    </imgeo:parameters>
+    <imgeo:object StUF:entiteittype="WSP" StUF:verwerkingssoort="T">
+      <imgeo:identificatie>
+        <imgeo:namespace>NL.IMGEO</imgeo:namespace>
+        <imgeo:lokaalID>G0307.b23390bff4c44763ab4d0f2a45438961</imgeo:lokaalID>
+      </imgeo:identificatie>
+      <imgeo:creationDate>2013-09-27</imgeo:creationDate>
+      <imgeo:terminationDate xsi:nil="true" StUF:noValue="geenWaarde" />
+      <StUF:tijdstipRegistratie>20130927164250</StUF:tijdstipRegistratie>
+      <imgeo:bronhouder>G0307</imgeo:bronhouder>
+      <imgeo:inOnderzoek StUF:metagegeven="true" xsi:nil="true" StUF:noValue="geenWaarde" />
+      <imgeo:relatieveHoogteligging>-7</imgeo:relatieveHoogteligging>
+      <imgeo:bgt-status codeSpace="http://www.geostandaarden.nl/imgeo/def/2.1#Status">bestaand</imgeo:bgt-status>
+      <imgeo:plus-status codeSpace="http://www.geostandaarden.nl/imgeo/def/2.1#VoidReasonValue" xsi:nil="true" StUF:noValue="geenWaarde" />
+      <imgeo:naam>Valleikanaal</imgeo:naam>
+      <imgeo:geometrie2d>
+        <Surface srsName="urn:ogc:def:crs:EPSG::28992" xmlns="http://www.opengis.net/gml">
+          <patches>
+            <PolygonPatch>
+              <exterior>
+                <LinearRing>
+                  <posList srsDimension="2">154416.931 464128.692 154411.603 464128.079 154402.032 464127.028 154397.166 464124.202 154347.045 464121.041 154326.558 464118.994 154284.269 464115.279 154285.357 464082.08 154328.793 464084.24 154393.241 464092.445 154424.034 464098.071 154457.48 464106.214 154462.11 464107.446 154467.599 464107.462 154474.575 464108.668 154486.799 464111.653 154548.589 464134.009 154608.88 464159.403 154642.441 464174.227 154753.81 464219.641 154766.963 464225.004 154829.062 464249.394 154828.458 464250.937 154835.291 464257.308 154837.652 464258.249 154938.094 464295.151 155198.398 464393.37 155268.406 464416.838 155332.514 464417.518 155402.603 464397.313 155460.185 464365.883 155483.027 464398.504 155412.597 464431.125 155359.268 464449.108 155305.939 464456.364 155241.57 464450.888 154922.39 464328.962 154825.212 464290.221 154824.435 464289.871 154824.618 464289.384 154783.87 464273.586 154757.663 464263.167 154742.114 464256.812 154726.565 464250.456 154713.309 464245.383 154680.982 464233.08 154661.063 464225.299 154646.638 464219.178 154628.171 464210.953 154613.906 464204.211 154580.362 464188.059 154553.976 464175.455 154543.489 464170.644 154533.002 464165.832 154524.091 464162.789 154513.955 464158.401 154501.391 464153.498 154491.473 464150.069 154487.949 464148.001 154475.436 464143.819 154462.922 464139.637 154459.993 464137.922 154416.931 464128.692</posList>
+                </LinearRing>
+              </exterior>
+            </PolygonPatch>
+          </patches>
+        </Surface>
+      </imgeo:geometrie2d>
+    </imgeo:object>
+  </imgeo:wspLk01T>
+  <imgeo:wykLk01T StUF:entiteittype="WYK" StUF:functie="update">
+    <imgeo:parameters>
+      <StUF:mutatiesoort>T</StUF:mutatiesoort>
+      <StUF:indicatorOvername>V</StUF:indicatorOvername>
+    </imgeo:parameters>
+    <imgeo:object StUF:entiteittype="WYK" StUF:verwerkingssoort="T">
+      <imgeo:identificatie>
+        <imgeo:namespace>NL.IMGEO</imgeo:namespace>
+        <imgeo:lokaalID>G0307.e4471b04a3864403815965956960c0bf</imgeo:lokaalID>
+      </imgeo:identificatie>
+      <imgeo:creationDate>2013-09-27</imgeo:creationDate>
+      <imgeo:terminationDate xsi:nil="true" StUF:noValue="geenWaarde" />
+      <StUF:tijdstipRegistratie>20130927164250</StUF:tijdstipRegistratie>
+      <imgeo:bronhouder>G0307</imgeo:bronhouder>
+      <imgeo:inOnderzoek StUF:metagegeven="true" xsi:nil="true" StUF:noValue="geenWaarde" />
+      <imgeo:relatieveHoogteligging>-9</imgeo:relatieveHoogteligging>
+      <imgeo:bgt-status codeSpace="http://www.geostandaarden.nl/imgeo/def/2.1#Status">bestaand</imgeo:bgt-status>
+      <imgeo:plus-status codeSpace="http://www.geostandaarden.nl/imgeo/def/2.1#VoidReasonValue" xsi:nil="true" StUF:noValue="geenWaarde" />
+      <imgeo:wijkcode>030706</imgeo:wijkcode>
+      <imgeo:naam>De Koppel</imgeo:naam>
+      <imgeo:ligtIn StUF:entiteittype="WYKSTD" StUF:verwerkingssoort="T" xsi:nil="true" StUF:noValue="geenWaarde" />
+      <imgeo:geometrie2d>
+        <MultiSurface srsName="urn:ogc:def:crs:EPSG::28992" xmlns="http://www.opengis.net/gml">
+          <surfaceMember>
+            <Surface>
+              <patches>
+                <PolygonPatch>
+                  <exterior>
+                    <LinearRing>
+                      <posList srsDimension="2">155469.528 464374.51 155468.214 464375.332 155407.472 464413.344 155354.25 464429.855 155305.675 464436.555 155251.817 464432.335 155191.729 464413.677 155178.429 464409.546 154848.197 464279.015 154648.384 464200.034 154541.442 464146.716 154540.929 464146.58 154497.827 464133.076 154461.244 464123.068 154419.043 464114.249 154284.53 464101.441 154288.708 463970.678 154302.492 463889.064 154320.455 463841.703 154369.749 463804.172 154427.115 463765.484 154437.84 463758.251 154545.409 463708.111 154619.907 463661.445 154691.968 463600.631 154764.724 463524.924 154817.904 463471.244 154821.94 463476.523 154880.967 463554.212 154986.134 463692.103 155014.258 463728.923 155114.155 463859.705 155360.735 464176.733 155465.331 464309.609 155501.076 464354.767 155469.528 464374.51</posList>
+                    </LinearRing>
+                  </exterior>
+                </PolygonPatch>
+              </patches>
+            </Surface>
+          </surfaceMember>
+        </MultiSurface>
+      </imgeo:geometrie2d>
+    </imgeo:object>
+  </imgeo:wykLk01T>
+  <imgeo:wykLk01T StUF:entiteittype="WYK" StUF:functie="update">
+    <imgeo:parameters>
+      <StUF:mutatiesoort>T</StUF:mutatiesoort>
+      <StUF:indicatorOvername>V</StUF:indicatorOvername>
+    </imgeo:parameters>
+    <imgeo:object StUF:entiteittype="WYK" StUF:verwerkingssoort="T">
+      <imgeo:identificatie>
+        <imgeo:namespace>NL.IMGEO</imgeo:namespace>
+        <imgeo:lokaalID>G0307.e632346c7b5b40c4b739fee42227546c</imgeo:lokaalID>
+      </imgeo:identificatie>
+      <imgeo:creationDate>2013-09-27</imgeo:creationDate>
+      <imgeo:terminationDate xsi:nil="true" StUF:noValue="geenWaarde" />
+      <StUF:tijdstipRegistratie>20130927164250</StUF:tijdstipRegistratie>
+      <imgeo:bronhouder>G0307</imgeo:bronhouder>
+      <imgeo:inOnderzoek StUF:metagegeven="true" xsi:nil="true" StUF:noValue="geenWaarde" />
+      <imgeo:relatieveHoogteligging>-9</imgeo:relatieveHoogteligging>
+      <imgeo:bgt-status codeSpace="http://www.geostandaarden.nl/imgeo/def/2.1#Status">bestaand</imgeo:bgt-status>
+      <imgeo:plus-status codeSpace="http://www.geostandaarden.nl/imgeo/def/2.1#VoidReasonValue" xsi:nil="true" StUF:noValue="geenWaarde" />
+      <imgeo:wijkcode>030708</imgeo:wijkcode>
+      <imgeo:naam>Schothorst-Zuid</imgeo:naam>
+      <imgeo:ligtIn StUF:entiteittype="WYKSTD" StUF:verwerkingssoort="T" xsi:nil="true" StUF:noValue="geenWaarde" />
+      <imgeo:geometrie2d>
+        <MultiSurface srsName="urn:ogc:def:crs:EPSG::28992" xmlns="http://www.opengis.net/gml">
+          <surfaceMember>
+            <Surface>
+              <patches>
+                <PolygonPatch>
+                  <exterior>
+                    <LinearRing>
+                      <posList srsDimension="2">155468.214 464375.332 155634.269 464601.921 155724.32 464725.242 155747.97 464754.09 155722.091 464775.475 155731.619 464908.707 155234.698 464946.419 155237.884 464960.929 155222.012 464965.282 155210.845 464966.609 155200.186 464965.765 155176.668 464957.561 155173.114 464956.475 155167.362 464957.32 155104.084 464932.468 155094.01 464957.872 155043.609 464937.816 155012.888 464925.591 154984.375 464914.326 154635.948 464776.663 154631.488 464774.901 154426.416 464695.341 154384.452 464734.657 154246.894 464682.299 154156.787 464644.759 154091.197 464623.459 154129.443 464582.193 154168.255 464529.36 154181.78 464505.46 154193.982 464469.814 154196.327 464460.962 154199.684 464429.566 154200.438 464393.19 154199.727 464351.692 154198.545 464294.715 154200.605 464238.716 154178.174 464230.578 154158.956 464217.517 154142.349 464199.392 154133.294 464189.481 154136.726 464187.483 154284.53 464101.441 154419.043 464114.249 154461.244 464123.068 154497.827 464133.076 154540.929 464146.58 154541.442 464146.716 154648.384 464200.034 154848.197 464279.015 155178.429 464409.546 155191.729 464413.677 155251.817 464432.335 155305.675 464436.555 155354.25 464429.855 155407.472 464413.344 155468.214 464375.332</posList>
+                    </LinearRing>
+                  </exterior>
+                </PolygonPatch>
+              </patches>
+            </Surface>
+          </surfaceMember>
+        </MultiSurface>
+      </imgeo:geometrie2d>
+    </imgeo:object>
+  </imgeo:wykLk01T>
+</imgeo:mtbSVBDi01>
