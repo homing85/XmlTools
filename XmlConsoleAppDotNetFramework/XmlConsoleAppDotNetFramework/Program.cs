@@ -7,7 +7,8 @@ using System.Xml.Serialization;
 using System.Xml;
 using imx122;
 using pgt;
-
+using System.Xml.Schema;
+using System.IO;
 
 namespace XmlConsoleAppDotNetFramework
 {
@@ -61,41 +62,61 @@ namespace XmlConsoleAppDotNetFramework
 
             Console.WriteLine("lets create some classes from xsd first");
 
-            ////Create xsd using xml
-            //XmlReader reader2 = XmlReader.Create(@"C:\repository\Tests\TestOutput\TestBroCptActions\XSD\class_based_on_CPT_registrationRequest\CPT_registrationRequest.xml");
-            //XmlSchemaSet schemaSet = new XmlSchemaSet();
+            ////create xsd using xml
+            //XmlReader reader2 = XmlReader.Create(@"C:\Repository\XmlTools\Voorbeelden\IMGeo_Naiade_Export_17_08_2022T12_42_33.xml");
+            //XmlSchemaSet schemaset = new XmlSchemaSet();
             //XmlSchemaInference schema = new XmlSchemaInference();
 
-            //schemaSet = schema.InferSchema(reader2);
+            //schemaset = schema.InferSchema(reader2);
             //XmlWriter writer;
             //int count = 0;
-            //foreach (XmlSchema s in schemaSet.Schemas())
+            //foreach (XmlSchema s in schemaset.Schemas())
             //{
-            //    writer = XmlWriter.Create((count++).ToString() + "_cpt.xsd");
+            //    writer = XmlWriter.Create((count++).ToString() + "_pgt.xsd");
             //    s.Write(writer);
             //    writer.Close();
-            //    Console.WriteLine("Done " + count);
+            //    Console.WriteLine("done " + count);
             //}
             //reader2.Close();
 
-            //// Using a modified CPT_in_out, the modified parts comes from a class auto-generated from xsd's that are auto-generated from a fugro generated cpt xml.
-            //CPT_in_out_mod.RegistrationRequestType1 CPT_in_out_request_mod = null;
-            //try
-            //{
-            //    XmlSerializer serializer = new XmlSerializer(typeof(CPT_in_out_mod.RegistrationRequestType1));
-            //    using (XmlTextReader reader = new XmlTextReader(exampleCptXmlPath))
-            //    {
-            //        CPT_in_out_request_mod = (CPT_in_out_mod.RegistrationRequestType1)serializer.Deserialize(reader);
-            //    }
+            // using a modified cpt_in_out, the modified parts comes from a class auto-generated from xsd's that are auto-generated from a fugro generated cpt xml.
+            selfpgt.FeatureCollection selfpgt = null;
+            try
+            {
+                XmlSerializer serializer = new XmlSerializer(typeof(selfpgt.FeatureCollection));
+                using (XmlTextReader reader = new XmlTextReader(exampleXmlPath2))
+                {
+                    selfpgt = (selfpgt.FeatureCollection)serializer.Deserialize(reader);
+                }
 
-            //}
-            //catch (Exception exception)
-            //{
-            //    //Do nothing
-            //}
-            //WriteToXml(CPT_in_out_request_mod, @"C:\repository\Tests\TestOutput\TestBroCptActions\documents\DKM119_000_serialized_mod.xml");
+            }
+            catch (Exception exception)
+            {
+                //Do nothing
+            }
+            WriteToXml(selfpgt, @"C:\Repository\XmlTools\Voorbeelden\IMGeo_Naiade_Export_17_08_2022T12_42_33_test2.xml");
 
 
+        }
+
+        private static void WriteToXml<T>(T registrationRequest, string v)
+        {
+            using (Stream stream = File.Open(v, FileMode.Create))
+            {
+                XmlSerializerNamespaces ns = new XmlSerializerNamespaces();
+                ns.Add("gml", "http://www.opengis.net/gml");
+                ns.Add("imgeo-pgt", "http://www.prorail.nl/imgeo-pgt/2.1");
+                //ns.Add("ns4", "http://www.broservices.nl/xsd/cptcommon/1.1");
+                //ns.Add("ns5", "http://www.w3.org/1999/xlink");
+                //ns.Add("ns6", "http://www.opengis.net/sampling/2.0");
+                //ns.Add("ns7", "http://www.opengis.net/om/2.0");
+                //ns.Add("ns8", "http://www.opengis.net/swe/2.0");
+                //ns.Add("ns3", "http://www.opengis.net/gml/3.2");
+                //ns.Add("xsi", "http://www.w3.org/2001/XMLSchema-instance");
+                XmlSerializer serializer = new XmlSerializer(typeof(T));
+                serializer.Serialize(stream, registrationRequest, ns);
+                stream.Flush();
+            }
         }
     }
 }
