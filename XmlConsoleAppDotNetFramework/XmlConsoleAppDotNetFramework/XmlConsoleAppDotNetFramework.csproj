@@ -33,6 +33,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Crotec.PGT.Common">
+      <HintPath>..\..\..\..\Users\Operatie\Downloads\PGTImport\Crotec.PGT.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Crotec.PGT.Data">
+      <HintPath>..\..\..\..\Users\Operatie\Downloads\PGTImport\Crotec.PGT.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Crotec.PGT.Data.Model">
+      <HintPath>..\..\..\..\Users\Operatie\Downloads\PGTImport\Crotec.PGT.Data.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Crotec.PGT.Parser">
+      <HintPath>..\..\..\..\Users\Operatie\Downloads\PGTImport\Crotec.PGT.Parser.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,9 +58,10 @@
     <Compile Include="IMX-1_2_3-Communication.cs" />
     <Compile Include="IMX_1_2_2-Communication.cs" />
     <Compile Include="pgt.cs" />
+    <Compile Include="pgt2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="self_pgt.cs" />
+    <Compile Include="selfpgt.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

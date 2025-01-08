@@ -10,3 +10,8 @@ xsd.exe xlink.xsd smil20.xsd smil20-language.xsd basicTypes.xsd gml.xsd imgeo-pg
 
 in created classes of xsd:
 1. change public double[] Text to public string[] Text
+
+
+succes:
+xsd.exe 0_pgt.xsd 1_pgt.xsd /c
+
